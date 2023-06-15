@@ -29,6 +29,6 @@ button.grid(row=0, column=0)
 
 # Bind the <Configure> event of the window to the update_image_dimensions function
 root.bind('<Configure>', update_image_dimensions)
-print("John")
+
 print("Hello")
 root.mainloop()
